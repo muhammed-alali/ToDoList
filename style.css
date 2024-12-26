@@ -1,0 +1,80 @@
+.container {
+  margin: 5rem 0px;
+  justify-content: center;
+  display: flex;
+}
+
+.addTasks input {
+  margin-bottom: 30px;
+}
+
+.addTasks button {
+  background: brown;
+  border: none;
+  padding: 10px 23px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.sendAndDelet {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.addTasks input {
+  height: 30px;
+  width: 422px;
+  padding-left: 8px;
+}
+
+.containerTask {
+  margin-top: 30px;
+  gap: 50px;
+  display: flex;
+}
+
+.Tasks .task {
+  width: 256px;
+  font-size: 18px;
+}
+
+.Tasks button {
+  cursor: pointer;
+  background: brown;
+  border: none;
+  padding: 8px 17px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.deletandTrue {
+  display: flex;
+  gap: 20px;
+}
+
+.trueOrFalse {
+  cursor: pointer;
+  background: brown;
+  border: none;
+  padding: 8px 17px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.trueOrFalseActiv {
+  cursor: pointer;
+  background: green;
+  border: none;
+  padding: 8px 17px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
